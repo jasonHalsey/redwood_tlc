@@ -7,10 +7,117 @@
 	Version: 1.0.0
 	Template: x
 */
+@font-face {
+  font-family: 'mrs_lollipopregular';
+  src: url("fonts/hipopotam_studio_-_mrslollipop-regular-webfont.woff2") format("woff2"), url("fonts/hipopotam_studio_-_mrslollipop-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 /* line 1, scss/partials/_layout.scss */
 body {
   background: url("images/dotted_bg2.png");
-  background-position: center 90px;
+  background-position: center 0;
   background-attachment: fixed;
   background-repeat: repeat-x;
+  background-size: contain;
+}
+
+/* line 9, scss/partials/_layout.scss */
+a {
+  color: #9163cc !important;
+}
+
+/* line 12, scss/partials/_layout.scss */
+.video_block .video_description {
+  background-color: #9163cc !important;
+  color: #ffffff !important;
+  font-family: "mrs_lollipopregular" !important;
+  font-size: 1.65em !important;
+  line-height: 3.4 !important;
+  border-bottom-right-radius: 2.0em;
+  border-bottom-left-radius: 2.0em;
+}
+
+/* line 23, scss/partials/_layout.scss */
+.video_col {
+  max-width: 1200px !important;
+  margin: 0 auto;
+  width: 100% !important;
+}
+
+/* line 29, scss/partials/_layout.scss */
+.e6-6.x-container {
+  margin: 0em auto 0em auto;
+  background-color: transparent;
+  z-index: 1;
+  max-width: 1200px !important;
+}
+
+/* line 41, scss/partials/_layout.scss */
+.e6-9.x-frame {
+  padding-top: 2em !important;
+  padding-right: 1.8em !important;
+  padding-left: 1.8em !important;
+  font-size: 16px !important;
+  background-color: transparent !important;
+}
+
+@media (max-width: 767px) {
+  /* line 2, scss/partials/_navigation.scss */
+  .no-mobile {
+    display: none;
+  }
+}
+/* line 8, scss/partials/_navigation.scss */
+.x-navbar .desktop .x-nav > li > a:hover {
+  box-shadow: inset 0 0 0 0 yellow !important;
+}
+
+/* line 16, scss/partials/_navigation.scss */
+nav ul li a span {
+  color: #ffffff;
+  font-family: 'mrs_lollipopregular';
+  font-size: 1.5em;
+}
+
+/* line 26, scss/partials/_navigation.scss */
+.top_star {
+  opacity: 0;
+}
+
+@media (min-width: 767px) {
+  /* line 31, scss/partials/_navigation.scss */
+  .masthead-stacked .x-brand {
+    visibility: hidden;
+    float: none;
+  }
+}
+/* line 37, scss/partials/_navigation.scss */
+.x-logobar {
+  position: relative;
+  overflow: visible;
+  border-bottom: 1px solid #f2f2f2;
+  text-align: center;
+  z-index: 1030;
+  background: url("images/hearts.png");
+  background-repeat: repeat-x;
+  margin-bottom: -2.3em;
+}
+
+/* line 48, scss/partials/_navigation.scss */
+.x-navbar {
+  border-bottom: none;
+  background: #7651a7;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #7651a7 11%, #7651a7 11%, #7651a7 11%, #9163cc 29%, #9163cc 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #7651a7 11%, #7651a7 11%, #7651a7 11%, #9163cc 29%, #9163cc 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #7651a7 11%, #7651a7 11%, #7651a7 11%, #9163cc 29%, #9163cc 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7651a7', endColorstr='#9163cc',GradientType=0 );
+  /* IE6-9 */
+  box-shadow: 0 0.15em 0.35em 0 rgba(0, 0, 0, 0.135);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }

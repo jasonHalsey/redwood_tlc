@@ -1,0 +1,16 @@
+//Colors
+$white : #ffffff;
+$purple	: #9163cc;
+
+
+//Fonts
+@font-face {
+    font-family: 'mrs_lollipopregular';
+    src: url('fonts/hipopotam_studio_-_mrslollipop-regular-webfont.woff2') format('woff2'),
+         url('fonts/hipopotam_studio_-_mrslollipop-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+$base-font-size : 16px;

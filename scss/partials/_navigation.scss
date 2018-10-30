@@ -1,0 +1,59 @@
+@media (max-width: 767px){
+  .no-mobile{
+    display:none;
+  }
+}
+
+
+.x-navbar .desktop .x-nav > li > a:hover {
+    box-shadow: inset 0 0 0 0 yellow!important;
+}
+
+nav{
+  ul{
+    li{
+      a{
+        span{
+          color:$white;
+          font-family: 'mrs_lollipopregular';
+          font-size: 1.5em;
+        }
+      }
+    }
+  }
+}
+
+.top_star{
+  opacity:0;
+}
+
+@media (min-width: 767px){
+  .masthead-stacked .x-brand {
+      visibility: hidden;
+      float: none;
+  }
+}
+
+.x-logobar {
+    position: relative;
+    overflow: visible;
+    border-bottom: 1px solid #f2f2f2;
+    text-align: center;
+    z-index: 1030;
+    background: url('images/hearts.png');
+    background-repeat: repeat-x;
+    margin-bottom: -2.3em;
+}
+
+.x-navbar {
+    border-bottom: none;
+    background: #7651a7; /* Old browsers */
+    background: -moz-linear-gradient(top, #7651a7 11%, #7651a7 11%, #7651a7 11%, #9163cc 29%, #9163cc 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #7651a7 11%,#7651a7 11%,#7651a7 11%,#9163cc 29%,#9163cc 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #7651a7 11%,#7651a7 11%,#7651a7 11%,#9163cc 29%,#9163cc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7651a7', endColorstr='#9163cc',GradientType=0 ); /* IE6-9 */
+    box-shadow: 0 0.15em 0.35em 0 rgba(0,0,0,0.135);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+

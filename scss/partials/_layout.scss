@@ -1,6 +1,47 @@
 body{
 	background: url('images/dotted_bg2.png');
-	background-position: center 90px;
+	background-position: center 0;
 	background-attachment: fixed;
 	background-repeat: repeat-x;
+	background-size: contain;
+}
+
+a{color:$purple!important;}
+
+.video_block{
+	.video_description{
+		background-color: $purple!important;
+		color:$white!important;
+		font-family: 'mrs_lollipopregular'!important;
+		font-size: 1.65em!important;
+		line-height:3.4!important;
+		border-bottom-right-radius: 2.0em;
+		border-bottom-left-radius: 2.0em;
+	}
+
+}
+.video_col{
+	max-width: 1200px!important;
+	margin: 0 auto;
+	width:100%!important;
+}
+
+.e6-6.x-container {
+    margin: 0em auto 0em auto;
+    background-color: transparent;
+    z-index: 1;
+    max-width: 1200px!important;
+}
+
+
+.video_player_tlc{
+	// visibility: hidden;
+}
+
+.e6-9.x-frame {
+    padding-top: 2.0em!important;
+    padding-right: 1.8em!important;
+    padding-left: 1.8em!important;
+    font-size: 16px!important;
+    background-color: transparent!important;
 }
