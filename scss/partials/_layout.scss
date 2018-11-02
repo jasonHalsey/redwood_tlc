@@ -17,6 +17,11 @@ a{color:$purple!important;}
 		line-height:3.4!important;
 		border-bottom-right-radius: 2.0em;
 		border-bottom-left-radius: 2.0em;
+		@media (max-width: 767px){
+			line-height: 1.5!important;
+			font-size: 1.25em!important;
+			padding: 0.5em!important;
+		}
 	}
 
 }
@@ -33,15 +38,15 @@ a{color:$purple!important;}
     max-width: 1200px!important;
 }
 
-
-.video_player_tlc{
-	// visibility: hidden;
-}
-
 .e6-9.x-frame {
     padding-top: 2.0em!important;
     padding-right: 1.8em!important;
     padding-left: 1.8em!important;
     font-size: 16px!important;
     background-color: transparent!important;
+    @media (max-width: 767px){
+    	padding-top: 0em!important;
+	    padding-right: 0em!important;
+	    padding-left: 0em!important;
+    }
 }

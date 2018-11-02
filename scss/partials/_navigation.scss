@@ -1,4 +1,4 @@
-@media (max-width: 767px){
+@media (max-width: 769px){
   .no-mobile{
     display:none;
   }
@@ -14,7 +14,7 @@ nav{
     li{
       a{
         span{
-          color:$white;
+          color:$white!important;
           font-family: 'mrs_lollipopregular';
           font-size: 1.5em;
         }
@@ -23,11 +23,34 @@ nav{
   }
 }
 
-.top_star{
-  opacity:0;
+#x-nav-wrap-mobile{
+  ul{
+    li{
+      a{
+        span{
+          color:$white!important;
+          font-family: 'mrs_lollipopregular';
+          font-size: 1.5em;
+        }
+      }
+    }
+  }
 }
 
-@media (min-width: 767px){
+.x-logobar-inner {
+  @media (max-width: 767px){
+    padding-top: 5px!important;
+    padding-bottom: 26px!important;
+  }
+}
+.top_star{
+  opacity:0;
+  @media (max-width: 769px){
+    display:none;
+  }
+}
+
+@media (min-width: 769px){
   .masthead-stacked .x-brand {
       visibility: hidden;
       float: none;
@@ -43,6 +66,11 @@ nav{
     background: url('images/hearts.png');
     background-repeat: repeat-x;
     margin-bottom: -2.3em;
+    @media (max-width: 769px){
+      margin-bottom: -2.5em;
+      z-index: 1032;
+      border-bottom: 1px solid transparent;
+    }
 }
 
 .x-navbar {
