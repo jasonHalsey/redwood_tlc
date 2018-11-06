@@ -50,3 +50,23 @@ a{color:$purple!important;}
 	    padding-left: 0em!important;
     }
 }
+
+.e6-36.x-anchor .x-anchor-text-primary, .e6-34.x-text {
+    color: $dk_purple!important;
+    &:hover{
+    	color:$white!important;
+    }
+}
+#footerish{
+	padding: 1.5em 0;
+}
+
+#rev_slider_3_2_wrapper {
+	webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	overflow: hidden!important; 
+	-webkit-box-shadow: 3px 3px 27px 0px rgba(0,0,0,0.53);
+	-moz-box-shadow: 3px 3px 27px 0px rgba(0,0,0,0.53);
+	box-shadow: 3px 3px 27px 0px rgba(0,0,0,0.53);
+}

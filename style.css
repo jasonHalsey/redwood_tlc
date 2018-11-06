@@ -78,6 +78,31 @@ a {
   }
 }
 
+/* line 54, scss/partials/_layout.scss */
+.e6-36.x-anchor .x-anchor-text-primary, .e6-34.x-text {
+  color: #694894 !important;
+}
+/* line 56, scss/partials/_layout.scss */
+.e6-36.x-anchor .x-anchor-text-primary:hover, .e6-34.x-text:hover {
+  color: #ffffff !important;
+}
+
+/* line 60, scss/partials/_layout.scss */
+#footerish {
+  padding: 1.5em 0;
+}
+
+/* line 64, scss/partials/_layout.scss */
+#rev_slider_3_2_wrapper {
+  webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  overflow: hidden !important;
+  -webkit-box-shadow: 3px 3px 27px 0px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 3px 3px 27px 0px rgba(0, 0, 0, 0.53);
+  box-shadow: 3px 3px 27px 0px rgba(0, 0, 0, 0.53);
+}
+
 @media (max-width: 769px) {
   /* line 2, scss/partials/_navigation.scss */
   .no-mobile {
