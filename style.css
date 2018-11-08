@@ -43,17 +43,19 @@ a {
     line-height: 1.5 !important;
     font-size: 1.25em !important;
     padding: 0.5em !important;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
   }
 }
 
-/* line 28, scss/partials/_layout.scss */
+/* line 30, scss/partials/_layout.scss */
 .video_col {
   max-width: 1200px !important;
   margin: 0 auto;
   width: 100% !important;
 }
 
-/* line 34, scss/partials/_layout.scss */
+/* line 36, scss/partials/_layout.scss */
 .e6-6.x-container {
   margin: 0em auto 0em auto;
   background-color: transparent;
@@ -61,7 +63,7 @@ a {
   max-width: 1200px !important;
 }
 
-/* line 41, scss/partials/_layout.scss */
+/* line 43, scss/partials/_layout.scss */
 .e6-9.x-frame {
   padding-top: 2em !important;
   padding-right: 1.8em !important;
@@ -70,7 +72,7 @@ a {
   background-color: transparent !important;
 }
 @media (max-width: 767px) {
-  /* line 41, scss/partials/_layout.scss */
+  /* line 43, scss/partials/_layout.scss */
   .e6-9.x-frame {
     padding-top: 0em !important;
     padding-right: 0em !important;
@@ -78,21 +80,21 @@ a {
   }
 }
 
-/* line 54, scss/partials/_layout.scss */
+/* line 56, scss/partials/_layout.scss */
 .e6-36.x-anchor .x-anchor-text-primary, .e6-34.x-text {
   color: #694894 !important;
 }
-/* line 56, scss/partials/_layout.scss */
+/* line 58, scss/partials/_layout.scss */
 .e6-36.x-anchor .x-anchor-text-primary:hover, .e6-34.x-text:hover {
   color: #ffffff !important;
 }
 
-/* line 60, scss/partials/_layout.scss */
+/* line 62, scss/partials/_layout.scss */
 #footerish {
   padding: 1.5em 0;
 }
 
-/* line 64, scss/partials/_layout.scss */
+/* line 66, scss/partials/_layout.scss */
 #rev_slider_3_2_wrapper {
   webkit-border-radius: 25px;
   -moz-border-radius: 25px;
